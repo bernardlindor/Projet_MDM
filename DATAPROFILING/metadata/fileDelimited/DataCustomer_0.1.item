@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ifXOwO-IEeqbSei1sR8gIA" name="DataCustomer" supplierDependency="_5bloAO-KEeqbSei1sR8gIA" dataPackage="_ifXOwe-IEeqbSei1sR8gIA" Server="Localhost 127.0.0.1" FilePath="D:/Cours/TPE_project/Dataset_work_TPE/Customers_1.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ifXOwe-IEeqbSei1sR8gIA" name="default" dataManager="_ifXOwO-IEeqbSei1sR8gIA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ifXOwu-IEeqbSei1sR8gIA" id="_qOZMcO-HEeqbSei1sR8gIA" label="metadataClient">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOw--IEeqbSei1sR8gIA" id="_Id_" label="_Id_" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOxO-IEeqbSei1sR8gIA" id="_First_Name_" label="_First_Name_" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_5bloAe-KEeqbSei1sR8gIA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOxe-IEeqbSei1sR8gIA" id="_Last_Name_" label="_Last_Name_" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_5bmPFe-KEeqbSei1sR8gIA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOxu-IEeqbSei1sR8gIA" id="_Gender_" label="_Gender_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOx--IEeqbSei1sR8gIA" id="_Age_" label="_Age_" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOyO-IEeqbSei1sR8gIA" id="_Occupation_" label="_Occupation_" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOye-IEeqbSei1sR8gIA" id="_MaritalStatus_Out_" label="_MaritalStatus_Out_" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOyu-IEeqbSei1sR8gIA" id="_Salary_Out_" label="_Salary_Out_" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOy--IEeqbSei1sR8gIA" id="_Address_" label="_Address_" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifXOzO-IEeqbSei1sR8gIA" id="_City_" label="_City_" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_5bm2Lu-KEeqbSei1sR8gIA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifX10O-IEeqbSei1sR8gIA" id="_State_" label="_State_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifX10e-IEeqbSei1sR8gIA" id="_Zip_" label="_Zip_" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifX10u-IEeqbSei1sR8gIA" id="_Phone_" label="_Phone_" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifX10--IEeqbSei1sR8gIA" id="_Email_" label="_Email_" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_5bmPJO-KEeqbSei1sR8gIA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifX11O-IEeqbSei1sR8gIA" id="_SubDate_" label="_SubDate_" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ifX11e-IEeqbSei1sR8gIA" id="_Number_of_rentals_" label="_Number_of_rentals_" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_5bloAO-KEeqbSei1sR8gIA" kind="Usage" supplier="_ifXOwO-IEeqbSei1sR8gIA">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/Customer_data_0.1.ana#_NSKqgO-DEeqbSei1sR8gIA"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/Matching_Analysis_0.1.ana#_-Wn1QO-jEeqbSei1sR8gIA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exportParameters version="7.1.1.20181026_1147">
+    <exportParameter name="DEV" type="technicalStatus">development</exportParameter>
+    <exportParameter name="TEST" type="technicalStatus">testing</exportParameter>
+    <exportParameter name="PROD" type="technicalStatus">production</exportParameter>
+    <exportParameter name="UCK" type="documentationStatus">unchecked</exportParameter>
+    <exportParameter name="CHK" type="documentationStatus">checked</exportParameter>
+    <exportParameter name="VAL" type="documentationStatus">validated</exportParameter>
+    <exportParameter name="hidePassword" type="security">true</exportParameter>
+    <exportParameter name="UPDATE_COMPONENTS" type="statAndLogs">false</exportParameter>
+    <exportParameter name="STATS_DEFAULT_PROJECTSETTING" type="statAndLogs">true</exportParameter>
+    <exportParameter name="ON_STATCATCHER_FLAG" type="statAndLogs">false</exportParameter>
+    <exportParameter name="ON_LOGCATCHER_FLAG" type="statAndLogs">false</exportParameter>
+    <exportParameter name="ON_METERCATCHER_FLAG" type="statAndLogs">false</exportParameter>
+    <exportParameter name="ON_CONSOLE_FLAG" type="statAndLogs">false</exportParameter>
+    <exportParameter name="ON_FILES_FLAG" type="statAndLogs">false</exportParameter>
+    <exportParameter name="FILE_PATH" type="statAndLogs">"C:/Talend/TOS_MDM-All-20181026_1147-V7.1.1/TOS_MDM-Studio-20181026_1147-V7.1.1/workspace/.metadata"</exportParameter>
+    <exportParameter name="FILENAME_STATS" type="statAndLogs">"stats_file.txt"</exportParameter>
+    <exportParameter name="FILENAME_LOGS" type="statAndLogs">"logs_file.txt"</exportParameter>
+    <exportParameter name="FILENAME_METTER" type="statAndLogs">"meter_file.txt"</exportParameter>
+    <exportParameter name="ENCODING" type="statAndLogs">ISO-8859-15</exportParameter>
+    <exportParameter name="ON_DATABASE_FLAG" type="statAndLogs">false</exportParameter>
+    <exportParameter name="PROPERTY_TYPE" type="statAndLogs"/>
+    <exportParameter name="DB_TYPE" type="statAndLogs">tJDBCOutput</exportParameter>
+    <exportParameter name="DB_VERSION" type="statAndLogs">ORACLE_12</exportParameter>
+    <exportParameter name="URL" type="statAndLogs">""</exportParameter>
+    <exportParameter name="DRIVER_JAR" type="statAndLogs"/>
+    <exportParameter name="DRIVER_CLASS" type="statAndLogs">""</exportParameter>
+    <exportParameter name="HOST" type="statAndLogs">""</exportParameter>
+    <exportParameter name="PORT" type="statAndLogs">""</exportParameter>
+    <exportParameter name="DBNAME" type="statAndLogs">""</exportParameter>
+    <exportParameter name="LOCAL_SERVICE_NAME" type="statAndLogs">""</exportParameter>
+    <exportParameter name="PROPERTIES" type="statAndLogs">""</exportParameter>
+    <exportParameter name="SCHEMA_DB" type="statAndLogs">""</exportParameter>
+    <exportParameter name="USER" type="statAndLogs">""</exportParameter>
+    <exportParameter name="PASS" type="statAndLogs">0RMsyjmybrE=</exportParameter>
+    <exportParameter name="DBFILE" type="statAndLogs">""</exportParameter>
+    <exportParameter name="TABLE_STATS" type="statAndLogs">""</exportParameter>
+    <exportParameter name="TABLE_LOGS" type="statAndLogs">""</exportParameter>
+    <exportParameter name="TABLE_METER" type="statAndLogs">""</exportParameter>
+    <exportParameter name="CATCH_RUNTIME_ERRORS" type="statAndLogs">true</exportParameter>
+    <exportParameter name="CATCH_USER_ERRORS" type="statAndLogs">true</exportParameter>
+    <exportParameter name="CATCH_USER_WARNING" type="statAndLogs">true</exportParameter>
+    <exportParameter name="CATCH_REALTIME_STATS" type="statAndLogs">false</exportParameter>
+    <exportParameter name="ENCODING:ENCODING_TYPE" type="statAndLogs">ISO-8859-15</exportParameter>
+    <exportParameter name="PROPERTY_TYPE:PROPERTY_TYPE" type="statAndLogs">BUILT_IN</exportParameter>
+    <exportParameter name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" type="statAndLogs"/>
+    <exportParameter name="UPDATE_COMPONENTS" type="implicitContext">false</exportParameter>
+    <exportParameter name="IMPLICIT_TCONTEXTLOAD" type="implicitContext">false</exportParameter>
+    <exportParameter name="IMPLICT_DEFAULT_PROJECTSETTING" type="implicitContext">true</exportParameter>
+    <exportParameter name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" type="implicitContext">false</exportParameter>
+    <exportParameter name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" type="implicitContext">false</exportParameter>
+    <exportParameter name="IMPLICIT_TCONTEXTLOAD_FILE" type="implicitContext">""</exportParameter>
+    <exportParameter name="FIELDSEPARATOR" type="implicitContext">""</exportParameter>
+    <exportParameter name="PROPERTY_TYPE_IMPLICIT_CONTEXT" type="implicitContext"/>
+    <exportParameter name="DB_TYPE_IMPLICIT_CONTEXT" type="implicitContext"/>
+    <exportParameter name="DB_VERSION_IMPLICIT_CONTEXT" type="implicitContext"/>
+    <exportParameter name="URL_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="DRIVER_JAR_IMPLICIT_CONTEXT" type="implicitContext"/>
+    <exportParameter name="DRIVER_CLASS_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="HOST_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="PORT_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="DBNAME_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="PROPERTIES_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="SCHEMA_DB_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="USER_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="PASS_IMPLICIT_CONTEXT" type="implicitContext">0RMsyjmybrE=</exportParameter>
+    <exportParameter name="DBFILE_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="DBTABLE_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="QUERY_CONDITION_IMPLICIT_CONTEXT" type="implicitContext">""</exportParameter>
+    <exportParameter name="LOAD_NEW_VARIABLE" type="implicitContext"/>
+    <exportParameter name="NOT_LOAD_OLD_VARIABLE" type="implicitContext"/>
+    <exportParameter name="PRINT_OPERATIONS" type="implicitContext">false</exportParameter>
+    <exportParameter name="DISABLE_ERROR" type="implicitContext">false</exportParameter>
+    <exportParameter name="DISABLE_WARNINGS" type="implicitContext">false</exportParameter>
+    <exportParameter name="DISABLE_INFO" type="implicitContext">false</exportParameter>
+    <exportParameter name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" type="implicitContext">BUILT_IN</exportParameter>
+    <exportParameter
+        name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" type="implicitContext"/>
+    <exportParameter family="File/Output" name="DI|tFileOutputRaw" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/NetSuite"
+        name="DI|tNetsuiteConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCTableList" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Mondrian"
+        name="DI|tMondrianInput" type="palette">true</exportParameter>
+    <exportParameter
+        family="Databases/DB Specifics/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseIQBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Aurora"
+        name="DI|tAmazonAuroraCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/FireBird"
+        name="DI|tFirebirdConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tWebService" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/MySQL"
+        name="DI|tAmazonMysqlCommit" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google/Dataproc"
+        name="DI|tGoogleDataprocManage" type="palette">true</exportParameter>
+    <exportParameter family="File/Output" name="DI|tExternalSortOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/AS400"
+        name="DI|tAS400LastInsertId" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Combined SQL"
+        name="DI|tCombinedSQLInput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlTableList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlRollback" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlTableList" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputFullRow" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Greenplum"
+        name="DI|tELTGreenplumInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/EXASolution"
+        name="DI|tEXARow" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Drive"
+        name="DI|tGoogleDriveConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Snowflake" name="DI|tSnowflakeInput" type="palette">true</exportParameter>
+    <exportParameter family="DotNET" name="DI|tDotNETInstantiate" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/MSSql" name="DI|tELTMSSqlInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Queue"
+        name="DI|tAzureStorageQueuePurge" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/MySQL"
+        name="DI|tAmazonMysqlRow" type="palette">true</exportParameter>
+    <exportParameter family="ELT/SQLTemplate"
+        name="DI|tSQLTemplateFilterColumns" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tGreenplumConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/NetSuite" name="DI|tNetsuiteInput" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputMail" type="palette">true</exportParameter>
+    <exportParameter family="File/Output" name="DI|tFileOutputExcel" type="palette">true</exportParameter>
+    <exportParameter family="Business/CentricCRM"
+        name="DI|tCentricCRMInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Aurora"
+        name="DI|tAmazonAuroraOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Interbase"
+        name="DI|tInterbaseCommit" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Data_Quality/Matching"
+        name="DI|tFuzzyMatch" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelSCD" type="palette">true</exportParameter>
+    <exportParameter family="File/Output" name="DI|tFileOutputARFF" type="palette">true</exportParameter>
+    <exportParameter family="Internet"
+        name="DI|tSetKerberosConfiguration" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresRollback" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Blob"
+        name="DI|tAzureStoragePut" type="palette">true</exportParameter>
+    <exportParameter family="Custom_Code" name="DI|tGroovyFile" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Access"
+        name="DI|tAccessCommit" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tApacheLogInput" type="palette">true</exportParameter>
+    <exportParameter family="Custom_Code" name="DI|tJavaFlex" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/VectorWise"
+        name="DI|tVectorWiseInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCInput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Vertica" name="DI|tELTVerticaInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage" name="DI|tGSGet" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sas"
+        name="DI|tSasInput" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage" name="DI|tGSList" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/eXist"
+        name="DI|tEXistXUpdate" type="palette">true</exportParameter>
+    <exportParameter family="Business Intelligence/Splunk"
+        name="DI|tSplunkEventCollector" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseRow" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tAssertCatcher" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataCommit" type="palette">true</exportParameter>
+    <exportParameter family="Business/JIRA" name="DI|tJIRAOutput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPRename" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceWaveOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHRow" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/SugarCRM" name="DI|tSugarCRMOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataFastLoadUtility" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tForeach" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/OleDb"
+        name="DI|tOleDbRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/SQLite"
+        name="DI|tSQLiteRollback" type="palette">true</exportParameter>
+    <exportParameter family="Business/Marketo"
+        name="DI|tMarketoBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Interbase"
+        name="DI|tInterbaseRow" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tNetezzaSCD" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/Charts"
+        name="DI|tLineChart" type="palette">true</exportParameter>
+    <exportParameter family="Business/SageX3" name="DI|tSageX3Output" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tTeradataSCD" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tWarn" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/eXist"
+        name="DI|tEXistList" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS" name="DI|tJMSOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlRow" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tSocketInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2Rollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business/Microsoft_AX"
+        name="DI|tMSAXOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3Get" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tIngresConnection" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPFileProperties" type="palette">true</exportParameter>
+    <exportParameter family="File/Output"
+        name="DI|tFileOutputMSPositional" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage" name="DI|tGSList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/Jasper"
+        name="DI|tJasperOutputExec" type="palette">true</exportParameter>
+    <exportParameter family="File/Output"
+        name="DI|tFileOutputMSDelimited" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseIQOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tFileInputXML" type="palette">true</exportParameter>
+    <exportParameter family="System" name="DI|tSystem" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaNzLoad" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage" name="DI|tGSClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlLastInsertId" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/DB_JDBC" name="DI|tELTMap" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaSCD" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage"
+        name="DI|tGSBucketExist" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Business/SageX3" name="DI|tSageX3Input" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Oracle"
+        name="DI|tAmazonOracleConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/MySQL"
+        name="DI|tAmazonMysqlConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Drive"
+        name="DI|tGoogleDriveGet" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud" name="DI|tCloudStop" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tServerAlive" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS" name="DI|tSQSInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusRow" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/MySQL"
+        name="DI|tAmazonMysqlRollback" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3List" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPRename" type="palette">true</exportParameter>
+    <exportParameter family="Business/Marketo" name="DI|tMarketoInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/EXASolution"
+        name="DI|tEXAClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataFastLoad" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS" name="DI|tSQSQueueList" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS"
+        name="DI|tSQSQueueAttributes" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Dropbox" name="DI|tDropboxGet" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Access"
+        name="DI|tAccessRow" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tSybaseSCD" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Queue"
+        name="DI|tAzureStorageQueueInputLoop" type="palette">true</exportParameter>
+    <exportParameter family="DotNET" name="DI|tDotNETRow" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/FireBird"
+        name="DI|tFirebirdRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataFastExport" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputRaw" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/SQLite"
+        name="DI|tSQLiteInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Interbase"
+        name="DI|tInterbaseConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/SQLite"
+        name="DI|tSQLiteOutput" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileExist" type="palette">true</exportParameter>
+    <exportParameter family="Business/Microsoft_CRM"
+        name="DI|tMicrosoftCrmOutput" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tFilterColumns" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMTriggerOutput" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tLogCatcher" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tIngresSCD" type="palette">true</exportParameter>
+    <exportParameter family="Custom_Code" name="DI|tJavaRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlSP" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sas"
+        name="DI|tSasOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Queue"
+        name="DI|tAzureStorageQueueCreate" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Aurora"
+        name="DI|tAmazonAuroraClose" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tJDBCSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataSCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCColumnList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/OleDb"
+        name="DI|tOleDbInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleRow" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/SPSS"
+        name="DI|tSPSSStructure" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlConnection" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/DB_JDBC" name="DI|tELTOutput" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields"
+        name="DI|tExtractPositionalFields" type="palette">true</exportParameter>
+    <exportParameter family="Business/LDAP" name="DI|tLDAPRenameEntry" type="palette">true</exportParameter>
+    <exportParameter family="Business/NetSuite" name="DI|tNetsuiteInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/MySQL"
+        name="DI|tAmazonMysqlClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlColumnList" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tSOAP" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataTPTUtility" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHOutput" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tFileOutputXML" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tTeradataSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Oracle"
+        name="DI|tAmazonOracleClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleInput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/SQLTemplate" name="DI|tSQLTemplate" type="palette">true</exportParameter>
+    <exportParameter
+        family="Databases/DB Specifics/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHOutput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Greenplum"
+        name="DI|tELTGreenplumOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Box" name="DI|tBoxList" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Oracle"
+        name="DI|tAmazonOracleRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/MySQL"
+        name="DI|tAmazonMysqlCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataOutput" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tPOP" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Sybase" name="DI|tELTSybaseInput" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMRollback" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloCubeList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlSCD" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tREST" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage"
+        name="DI|tGSConnection" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/FireBird"
+        name="DI|tFirebirdClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/NetSuite" name="DI|tNetsuiteOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases" name="DI|tCreateTable" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputXML" type="palette">true</exportParameter>
+    <exportParameter family="ESB/REST" name="DI|tRESTClient" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Netezza" name="DI|tELTNetezzaMap" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloInputMulti" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Blob"
+        name="DI|tAzureStorageList" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tMSSqlSCD" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Oracle"
+        name="DI|tAmazonOracleCommit" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputLDIF" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tAggregateSortedRow" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceGetServerTimestamp" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Netezza"
+        name="DI|tELTNetezzaOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/eXist"
+        name="DI|tEXistConnection" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tParAccelSCD" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage"
+        name="DI|tGSBucketExist" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Aurora"
+        name="DI|tAmazonAuroraOutput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/MySQL" name="DI|tELTMysqlOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelConnection" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS"
+        name="DI|tMomMessageIdList" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Vertica"
+        name="DI|tELTVerticaOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Box" name="DI|tBoxCopy" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Hive"
+        name="DI|tHiveClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixSCD" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3BucketExist" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/SQLite"
+        name="DI|tSQLiteRow" type="palette">true</exportParameter>
+    <exportParameter family="File/Output" name="DI|tFileOutputJSON" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileCompare" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tDB2SCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/HSQLDb"
+        name="DI|tHSQLDbOutput" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tFixedFlowInput" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tChronometerStop" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields" name="DI|tWriteXMLField" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tMap" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections" name="DI|tMysqlConnection" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloDatabase" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumCommit" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tWebServiceInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Marketo" name="DI|tMarketoInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftClose" type="palette">true</exportParameter>
+    <exportParameter family="File/Output" name="DI|tFileOutputMSXML" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MaxDB"
+        name="DI|tMaxDBInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftCommit" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputPositional" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Interbase"
+        name="DI|tInterbaseClose" type="palette">true</exportParameter>
+    <exportParameter family="File/NamedPipe" name="DI|tNamedPipeClose" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS" name="DI|tJMSInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud" name="DI|tCloudStart" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tLoop" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusSCD" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Oracle"
+        name="DI|tAmazonOracleConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Dropbox" name="DI|tDropboxDelete" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputDelimited" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Oracle"
+        name="DI|tAmazonOracleRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixClose" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tOracleSCD" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tSortRow" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMConnection" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage" name="DI|tGSCopy" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/SQLite"
+        name="DI|tSQLiteConnection" type="palette">true</exportParameter>
+    <exportParameter family="System" name="DI|tSSH" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Blob"
+        name="DI|tAzureStorageContainerList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/MySQL"
+        name="DI|tAmazonMysqlInput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS" name="DI|tMomCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseCommit" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/PostgreSQL"
+        name="DI|tELTPostgresqlMap" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlLastInsertId" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceGetDeleted" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceWaveBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/EXASolution"
+        name="DI|tEXARollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/VectorWise"
+        name="DI|tVectorWiseCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/VectorWise"
+        name="DI|tVectorWiseRollback" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage" name="DI|tGSCopy" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPTruncate" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/AS400"
+        name="DI|tAS400Close" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/SugarCRM" name="DI|tSugarCRMInput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS"
+        name="DI|tMicrosoftMQOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloDimension" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Marketo" name="DI|tMarketoBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresSCD" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMOutput" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileTouch" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleRollback" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tSQLiteConnection" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields"
+        name="DI|tDenormalizeSortedRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Aurora"
+        name="DI|tAmazonAuroraInput" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields"
+        name="DI|tExtractDelimitedFields" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tWaitForFile" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusRollback" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tSampleRow" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tWaitForSqlData" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Marketo"
+        name="DI|tMarketoListOperation" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google BigQuery"
+        name="DI|tBigQueryOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/FireBird"
+        name="DI|tFirebirdRow" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Table"
+        name="DI|tAzureStorageOutputTable" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tSVNLogInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS"
+        name="DI|tSQSMessageChangeVisibility" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/MySQL"
+        name="DI|tAmazonMysqlConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2SCD" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tMysqlSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaSCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCSP" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tLogRow" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google BigQuery"
+        name="DI|tBigQueryInput" type="palette">true</exportParameter>
+    <exportParameter family="Data_Quality/Matching/Pattern matching"
+        name="DI|tExtractRegexFields" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/PostgreSQL"
+        name="DI|tELTPostgresqlOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Oracle"
+        name="DI|tAmazonOracleInput" type="palette">true</exportParameter>
+    <exportParameter family="Custom_Code" name="DI|tLibraryLoad" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tOracleConnection" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileCopy" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/Charts"
+        name="DI|tBarChart" type="palette">true</exportParameter>
+    <exportParameter family="ELT/SQLTemplate"
+        name="DI|tSQLTemplateFilterRows" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage"
+        name="DI|tGSBucketList" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tWaitForSocket" type="palette">true</exportParameter>
+    <exportParameter family="Business/VtigerCRM"
+        name="DI|tVtigerCRMOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tAdvancedFileOutputXML" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields" name="DI|tNormalize" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloCube" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleConnection" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tXMLMap" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Queue"
+        name="DI|tAzureStorageQueueDelete" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tPostgresqlSCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2Input" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS"
+        name="DI|tSQSMessageDelete" type="palette">true</exportParameter>
+    <exportParameter
+        family="Databases/DB Specifics/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/VectorWise"
+        name="DI|tVectorWiseOutput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Combined SQL"
+        name="DI|tCombinedSQLOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixRow" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections" name="DI|tAS400Connection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3BucketCreate" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceGetUpdated" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Aurora"
+        name="DI|tAmazonAuroraClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/MySQL"
+        name="DI|tAmazonMysqlOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business/NetSuite"
+        name="DI|tNetsuiteConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Box" name="DI|tBoxPut" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Box" name="DI|tBoxDelete" type="palette">true</exportParameter>
+    <exportParameter family="Business/Marketo" name="DI|tMarketoOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMTriggerInput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPGet" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPFileExist" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Hive"
+        name="DI|tHiveRow" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHConnection" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tAddLocationFromIP" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftCommit" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPPut" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage"
+        name="DI|tGSBucketCreate" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceOutput" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tDTDValidator" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tFileList" type="palette">true</exportParameter>
+    <exportParameter family="Business/LDAP" name="DI|tLDAPConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/ServiceNow"
+        name="DI|tServiceNowConnection" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Oracle" name="DI|tELTOracleMap" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tXMLMap" type="palette">true</exportParameter>
+    <exportParameter family="Business/NetSuite"
+        name="DI|tNetsuiteOutput" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tIterateToFlow" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Greenplum"
+        name="DI|tELTGreenplumMap" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Access"
+        name="DI|tAccessOutput" type="palette">true</exportParameter>
+    <exportParameter family="Unstructured/EDIFACT"
+        name="DI|tEDIFACTtoXML" type="palette">true</exportParameter>
+    <exportParameter family="Business/ServiceNow"
+        name="DI|tServiceNowInput" type="palette">true</exportParameter>
+    <exportParameter family="File/Output" name="DI|tFileOutputLDIF" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Vertica" name="DI|tELTVerticaMap" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaRow" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tFlowMeterCatcher" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCRollback" type="palette">true</exportParameter>
+    <exportParameter family="Business/LDAP" name="DI|tLDAPClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusCommit" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3Close" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/FireBird"
+        name="DI|tFirebirdOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataMultiLoad" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleClose" type="palette">true</exportParameter>
+    <exportParameter family="File/Management"
+        name="DI|tChangeFileEncoding" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloRuleList" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Dropbox" name="DI|tDropboxConnection" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputARFF" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputJSON" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPFileExists" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Access"
+        name="DI|tAccessClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Snowflake" name="DI|tSnowflakeClose" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMSP" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Queue"
+        name="DI|tAzureStorageQueueList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Oracle"
+        name="DI|tAmazonOracleRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumSCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/MySQL"
+        name="DI|tAmazonMysqlInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage"
+        name="DI|tGSBucketList" type="palette">true</exportParameter>
+    <exportParameter family="Custom_Code" name="DI|tSetGlobalVar" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tGPGDecrypt" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Blob"
+        name="DI|tAzureStorageDelete" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Snowflake" name="DI|tSnowflakeRow" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Drive"
+        name="DI|tGoogleDriveDelete" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataTPump" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tNetezzaConnection" type="palette">true</exportParameter>
+    <exportParameter
+        family="Databases/DB Specifics/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHClose" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputMSDelimited" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tSetKeystore" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPDelete" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tAccessConnection" type="palette">true</exportParameter>
+    <exportParameter family="Data_Quality" name="DI|tChangeFileEncoding" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases" name="DI|tParseRecordSet" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tPostjob" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tEDIFACTtoXML" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/AS400"
+        name="DI|tAS400Commit" type="palette">true</exportParameter>
+    <exportParameter family="Business/Microsoft_AX" name="DI|tMSAXInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Aurora"
+        name="DI|tAmazonAuroraConnection" type="palette">true</exportParameter>
+    <exportParameter family="Business/Open Bravo"
+        name="DI|tOpenbravoERPOutput" type="palette">true</exportParameter>
+    <exportParameter family="File/Output" name="DI|tFileOutputDelimited" type="palette">true</exportParameter>
+    <exportParameter family="Business/ServiceNow"
+        name="DI|tServiceNowConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaInput" type="palette">true</exportParameter>
+    <exportParameter family="Business/ServiceNow"
+        name="DI|tServiceNowOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business/Marketo"
+        name="DI|tMarketoListOperation" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleTableList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2SCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tFlowToIterate" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tGreenplumSCD" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputRegex" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tMysqlSCD" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3Put" type="palette">true</exportParameter>
+    <exportParameter family="File/Management"
+        name="DI|tCreateTemporaryFile" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/EXASolution"
+        name="DI|tEXAInput" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage"
+        name="DI|tGSBucketCreate" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/HSQLDb"
+        name="DI|tHSQLDbInput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/PostgreSQL"
+        name="DI|tELTPostgresqlInput" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tSocketOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Marketo" name="DI|tMarketoCampaign" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tChronometerStart" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tVerticaSCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Oracle" name="DI|tELTOracleOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/MySQL"
+        name="DI|tAmazonMysqlRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tAmazonRedshiftManage" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS" name="DI|tSQSQueuePurge" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tRSSOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataConnection" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tRSSInput" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloOutput" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage" name="DI|tGSGet" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3Copy" type="palette">true</exportParameter>
+    <exportParameter family="Data_Quality" name="DI|tReplaceList" type="palette">true</exportParameter>
+    <exportParameter
+        family="Databases/DB Specifics/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JavaDb"
+        name="DI|tJavaDBInput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections" name="DI|tJDBCConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3BucketDelete" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields"
+        name="DI|tWriteJSONField" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Combined SQL"
+        name="DI|tCombinedSQLAggregate" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/MySQL"
+        name="DI|tAmazonMysqlOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/eXist"
+        name="DI|tEXistGet" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Aurora"
+        name="DI|tAmazonAuroraRollback" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloDatabaseList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMReceive" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Blob"
+        name="DI|tAzureStorageContainerCreate" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage" name="DI|tGSClose" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Hive" name="DI|tHiveConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/eXist"
+        name="DI|tEXistDelete" type="palette">true</exportParameter>
+    <exportParameter family="File/Output"
+        name="DI|tPivotToColumnsDelimited" type="palette">true</exportParameter>
+    <exportParameter family="Business/JIRA" name="DI|tJIRAInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Oracle"
+        name="DI|tAmazonOracleRollback" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS" name="DI|tMomInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Queue"
+        name="DI|tAzureStorageQueueOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tPostgresPlusSCD" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Drive"
+        name="DI|tGoogleDriveCopy" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/HSQLDb"
+        name="DI|tHSQLDbRow" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tFirebirdConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/EXASolution"
+        name="DI|tEXAOutput" type="palette">true</exportParameter>
+    <exportParameter family="Data_Quality" name="DI|tUniqRow" type="palette">true</exportParameter>
+    <exportParameter family="Business/CentricCRM"
+        name="DI|tCentricCRMOutput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/SQLTemplate"
+        name="DI|tSQLTemplateRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tJoin" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tOracleSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tExtractXMLField" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/Jasper"
+        name="DI|tJasperOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseSP" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputMSXML" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftInput" type="palette">true</exportParameter>
+    <exportParameter family="Business/LDAP"
+        name="DI|tLDAPAttributesInput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/MySQL" name="DI|tELTMysqlMap" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Drive"
+        name="DI|tGoogleDrivePut" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Drive"
+        name="DI|tGoogleDriveList" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS" name="DI|tSQSQueueDelete" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlRow" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Hive" name="DI|tHiveRow" type="palette">true</exportParameter>
+    <exportParameter
+        family="Databases/DB Specifics/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHRow" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields"
+        name="DI|tExtractXMLField" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/EXASolution"
+        name="DI|tEXACommit" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tRunJob" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/eXist"
+        name="DI|tEXistPut" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tHttpRequest" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tBufferOutput" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Hive" name="DI|tHiveClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Box" name="DI|tBoxGet" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftOutput" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataInput" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google BigQuery"
+        name="DI|tBigQueryOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Blob"
+        name="DI|tAzureStorageContainerDelete" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumRow" type="palette">true</exportParameter>
+    <exportParameter family="File/Input"
+        name="DI|tFileInputMSPositional" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceGetDeleted" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Hive"
+        name="DI|tHiveConnection" type="palette">true</exportParameter>
+    <exportParameter family="File/NamedPipe" name="DI|tNamedPipeOutput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPTruncate" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Access"
+        name="DI|tAccessOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/OleDb"
+        name="DI|tOleDbOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlSCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftUnload" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloOutputMulti" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MaxDB"
+        name="DI|tMaxDBRow" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Teradata"
+        name="DI|tELTTeradataInput" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceGetUpdated" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS" name="DI|tSQSQueueCreate" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tFileInputJSON" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tDie" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Aurora"
+        name="DI|tAmazonAuroraInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage" name="DI|tGSPut" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields" name="DI|tDenormalize" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Blob"
+        name="DI|tAzureStorageGet" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/MSSql" name="DI|tELTMSSqlOutput" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tMemorizeRows" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlConnection" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tSendMail" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Box" name="DI|tBoxConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCCommit" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPPut" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelRow" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloDimensionList" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresClose" type="palette">true</exportParameter>
+    <exportParameter family="Custom_Code" name="DI|tGroovy" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Access"
+        name="DI|tAccessInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS" name="DI|tSQSOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleSCD" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Combined SQL"
+        name="DI|tCombinedSQLFilter" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/MySQL"
+        name="DI|tAmazonMysqlClose" type="palette">true</exportParameter>
+    <exportParameter family="File/Output" name="DI|tFileOutputXML" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Marketo" name="DI|tMarketoConnection" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tInfiniteLoop" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumClose" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceWaveBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Marketo" name="DI|tMarketoOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2Output" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tPostgresPlusConnection" type="palette">true</exportParameter>
+    <exportParameter family="File/NamedPipe" name="DI|tNamedPipeOpen" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Sybase" name="DI|tELTSybaseOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Oracle"
+        name="DI|tAmazonOracleClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tFlowMeter" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/SQLite"
+        name="DI|tSQLiteClose" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/MySQL" name="DI|tELTMysqlInput" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/SPSS"
+        name="DI|tSPSSProperties" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlCommit" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tDB2SCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPGet" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage"
+        name="DI|tGSBucketDelete" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Snowflake" name="DI|tSnowflakeOutput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Teradata"
+        name="DI|tELTTeradataOutput" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileList" type="palette">true</exportParameter>
+    <exportParameter family="System" name="DI|tSetEnv" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseClose" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tTeradataConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/EMR"
+        name="DI|tAmazonEMRResize" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tFileFetch" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2Row" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelRollback" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tExternalSortRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataRow" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputProperties" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/MSSql" name="DI|tELTMSSqlMap" type="palette">true</exportParameter>
+    <exportParameter family="Business/SugarCRM"
+        name="DI|tSugarCRMOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixSP" type="palette">true</exportParameter>
+    <exportParameter family="Business/Bonita"
+        name="DI|tBonitaInstantiateProcess" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/SPSS"
+        name="DI|tSPSSOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloRule" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tConvertType" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS"
+        name="DI|tMomConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Snowflake"
+        name="DI|tSnowflakeConnection" type="palette">true</exportParameter>
+    <exportParameter family="ELT/SQLTemplate"
+        name="DI|tSQLTemplateAggregate" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Aurora"
+        name="DI|tAmazonAuroraConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3Connection" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tPrejob" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/MySQL"
+        name="DI|tAmazonMysqlRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Netezza"
+        name="DI|tNetezzaCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Aurora"
+        name="DI|tAmazonAuroraRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/AS400"
+        name="DI|tAS400Connection" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Sybase" name="DI|tELTSybaseMap" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tWriteXMLField" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlSCD" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Table"
+        name="DI|tAzureStorageInputTable" type="palette">true</exportParameter>
+    <exportParameter
+        family="Databases/DB Specifics/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tXMLRPCInput" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tSybaseSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JavaDb"
+        name="DI|tJavaDBOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business/Open Bravo"
+        name="DI|tOpenbravoERPInput" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMDelete" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Aurora"
+        name="DI|tAmazonAuroraCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixCommit" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tRowGenerator" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/EMR"
+        name="DI|tAmazonEMRManage" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/EXASolution"
+        name="DI|tEXAConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3BucketList" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tBufferInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Interbase"
+        name="DI|tInterbaseOutput" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tPostgresqlSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleSP" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tContextLoad" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/ServiceNow"
+        name="DI|tServiceNowInput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS" name="DI|tMomOutput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Teradata" name="DI|tELTTeradataMap" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields"
+        name="DI|tExtractRegexFields" type="palette">true</exportParameter>
+    <exportParameter family="ELT/SQLTemplate"
+        name="DI|tSQLTemplateCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2Connection" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMRouteRecord" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Dropbox" name="DI|tDropboxList" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Salesforce"
+        name="DI|tSalesforceGetServerTimestamp" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPClose" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tAssert" type="palette">true</exportParameter>
+    <exportParameter family="Business/Microsoft_CRM"
+        name="DI|tMicrosoftCrmInput" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage" name="DI|tGSPut" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseSCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tPostgresqlConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlSP" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tSybaseConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="File/Output"
+        name="DI|tFileOutputPositional" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftInput" type="palette">true</exportParameter>
+    <exportParameter family="Business/LDAP" name="DI|tLDAPInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Access"
+        name="DI|tAccessConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/EXASolution"
+        name="DI|tEXABulkExec" type="palette">true</exportParameter>
+    <exportParameter family="ESB/Web Services" name="DI|tESBConsumer" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/SQS" name="DI|tSQSConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlColumnList" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields" name="DI|tSplitRow" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMViewSearch" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlOutputBulk" type="palette">true</exportParameter>
+    <exportParameter family="Processing/Fields"
+        name="DI|tExtractJSONFields" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google BigQuery"
+        name="DI|tBigQueryBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPConnection" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileArchive" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Queue"
+        name="DI|tAzureStorageQueueInput" type="palette">true</exportParameter>
+    <exportParameter family="Data_Quality"
+        name="DI|tSchemaComplianceCheck" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tUnite" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage"
+        name="DI|tAzureStorageConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleOutput" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage"
+        name="DI|tGSDelete" type="palette">true</exportParameter>
+    <exportParameter
+        family="Databases/DB Specifics/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/FireBird"
+        name="DI|tFirebirdInput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections" name="DI|tMSSqlConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/S3" name="DI|tS3Delete" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPDelete" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/OLAP_Cube/Palo"
+        name="DI|tPaloCheckElements" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2Commit" type="palette">true</exportParameter>
+    <exportParameter family="Business/Marketo"
+        name="DI|tMarketoCampaign" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/SPSS"
+        name="DI|tSPSSInput" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tXSLT" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileRowCount" type="palette">true</exportParameter>
+    <exportParameter family="XML" name="DI|tXSDValidator" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataTPTExec" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tVectorWiseConnection" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/DB_JDBC" name="DI|tELTInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Business/SugarCRM" name="DI|tSugarCRMInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/eXist"
+        name="DI|tEXistXQuery" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tInformixSCD" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlCommit" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tSleep" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tReplace" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections" name="DI|tHiveConnection" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tFilterRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Sybase"
+        name="DI|tSybaseInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelInput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Netezza" name="DI|tELTNetezzaInput" type="palette">true</exportParameter>
+    <exportParameter family="Business/Marketo"
+        name="DI|tMarketoConnection" type="palette">true</exportParameter>
+    <exportParameter family="Talend MDM" name="DI|tMDMBulkLoad" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tContextDump" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JavaDb"
+        name="DI|tJavaDBRow" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS"
+        name="DI|tMomRollback" type="palette">true</exportParameter>
+    <exportParameter family="Business/Salesforce"
+        name="DI|tSalesforceWaveOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Interbase"
+        name="DI|tInterbaseInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/AS400"
+        name="DI|tAS400Row" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/VectorWise"
+        name="DI|tVectorWiseConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="System" name="DI|tRunJob" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Drive"
+        name="DI|tGoogleDriveCreate" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHCommit" type="palette">true</exportParameter>
+    <exportParameter family="Data_Quality" name="DI|tIntervalMatch" type="palette">true</exportParameter>
+    <exportParameter family="Custom_Code" name="DI|tJava" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Data_Quality" name="DI|tAddCRCRow" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tInterbaseConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/EMR"
+        name="DI|tAmazonEMRListInstances" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumGPLoad" type="palette">true</exportParameter>
+    <exportParameter family="ELT/SQLTemplate"
+        name="DI|tSQLTemplateMerge" type="palette">true</exportParameter>
+    <exportParameter family="Business_Intelligence/DB_SCD"
+        name="DI|tPostgresPlusSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/AS400"
+        name="DI|tAS400Input" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/VectorWise"
+        name="DI|tVectorWiseRow" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Oracle"
+        name="DI|tAmazonOracleOutput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage" name="DI|tGSDelete" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2BulkExec" type="palette">true</exportParameter>
+    <exportParameter family="File/Output"
+        name="DI|tFileOutputProperties" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MS_SQL_Server"
+        name="DI|tMSSqlBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/FireBird"
+        name="DI|tFirebirdCommit" type="palette">true</exportParameter>
+    <exportParameter family="Processing" name="DI|tAggregateRow" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelOutput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/MOM and JMS"
+        name="DI|tMicrosoftMQInput" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Amazon/Redshift"
+        name="DI|tRedshiftRollback" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileUnarchive" type="palette">true</exportParameter>
+    <exportParameter family="Business/Bonita" name="DI|tBonitaDeploy" type="palette">true</exportParameter>
+    <exportParameter family="Internet/FTP" name="DI|tFTPFileList" type="palette">true</exportParameter>
+    <exportParameter family="Business/LDAP" name="DI|tLDAPOutput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections" name="DI|tDB2Connection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Teradata"
+        name="DI|tTeradataClose" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Oracle"
+        name="DI|tOracleCommit" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Access"
+        name="DI|tAccessRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MaxDB"
+        name="DI|tMaxDBOutput" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileProperties" type="palette">true</exportParameter>
+    <exportParameter family="Business/VtigerCRM"
+        name="DI|tVtigerCRMInput" type="palette">true</exportParameter>
+    <exportParameter family="Internet/SCP" name="DI|tSCPFileList" type="palette">true</exportParameter>
+    <exportParameter family="Orchestration" name="DI|tReplicate" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Informix"
+        name="DI|tInformixOutputBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/AS400"
+        name="DI|tAS400Rollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/JDBC"
+        name="DI|tJDBCSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/ServiceNow"
+        name="DI|tServiceNowOutput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections" name="DI|tEXAConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgreSQL"
+        name="DI|tPostgresqlSCDELT" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Dropbox" name="DI|tDropboxPut" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Redshift"
+        name="DI|tRedshiftConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2Close" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/PostgresPlus"
+        name="DI|tPostgresPlusClose" type="palette">true</exportParameter>
+    <exportParameter family="Big Data/Google Storage"
+        name="DI|tGSConnection" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure Storage/Blob"
+        name="DI|tAzureStorageContainerExist" type="palette">true</exportParameter>
+    <exportParameter family="Internet" name="DI|tSetProxy" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumConnection" type="palette">true</exportParameter>
+    <exportParameter family="File/Management" name="DI|tFileDelete" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/MySQL"
+        name="DI|tMysqlBulkExec" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Greenplum"
+        name="DI|tGreenplumInput" type="palette">true</exportParameter>
+    <exportParameter family="File/Input" name="DI|tFileInputExcel" type="palette">true</exportParameter>
+    <exportParameter family="Logs_Errors" name="DI|tStatCatcher" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/SQLite"
+        name="DI|tSQLiteCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Vertica"
+        name="DI|tVerticaRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Interbase"
+        name="DI|tInterbaseRollback" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Oracle"
+        name="DI|tAmazonOracleInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/DB2"
+        name="DI|tDB2SP" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Google Storage"
+        name="DI|tGSBucketDelete" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Oracle"
+        name="DI|tAmazonOracleOutput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/ParAccel"
+        name="DI|tParAccelCommit" type="palette">true</exportParameter>
+    <exportParameter family="File/Output"
+        name="DI|tAdvancedFileOutputXML" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Connections"
+        name="DI|tParAccelConnection" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Ingres"
+        name="DI|tIngresCommit" type="palette">true</exportParameter>
+    <exportParameter family="Cloud/Azure/SQL Data Warehouse"
+        name="DI|tSQLDWHInput" type="palette">true</exportParameter>
+    <exportParameter family="ELT/Map/Oracle" name="DI|tELTOracleInput" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/Amazon/Oracle"
+        name="DI|tAmazonOracleCommit" type="palette">true</exportParameter>
+    <exportParameter family="Databases/DB Specifics/AS400"
+        name="DI|tAS400Output" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tRowGenerator" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tFixedFlowInput" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tBufferOutput" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tMemorizeRows" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tServerAlive" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tAddLocationFromIP" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tContextDump" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tBufferInput" type="palette">true</exportParameter>
+    <exportParameter family="Misc" name="DI|tContextLoad" type="palette">true</exportParameter>
+</exportParameters>
